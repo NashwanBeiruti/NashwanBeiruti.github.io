@@ -1,7 +1,198 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>My Page</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/MyWebpage.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/lib/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
+	<script type="text/javascript" src="assets/js/lib/jquery-3.2.1.js"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<div class="heading">
+	<h1 class="header">Nashwan Beiruti</h1>
+</div>
+
+
+
+<div id="banner">
+	<img src="assets/images/beach.jpg">
+	<p class="animated bounceInDown" id="html">C++</p>
+	<p class="animated fadeInLeft" id="css">Java</p>
+	<p class="animated fadeInRight" id="javascript">HTML</p>
+</div>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="#home">Home</a>
+  <a id="resumeJump" >Resume</a>
+  <a id="contactsJump">Contact</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+<div class="grid">
+	<div class="square planning"><span>Planning</span>
+		<div class="caption">
+			<p>
+			For me planning is an essential part when given a project. Before you tackle a problem, 
+			you must plan accordingly. A good plan means
+			an increase in efficiency, and can drastically reduce the time it would take to debug 
+			</p>
+		</div>
+	</div>
+	
+	<div class="square creativity"><span>Patience</span>
+		<div class="caption">
+			<p>
+			Your program is not always going to do what you intended it to do, whether it is an
+			index out of bounds error or something much bigger, the main thing is to be patient and 
+			learn from your mistakes
+			</p>
+		</div>
+	</div>
+
+	<div class="square efficiency"><span>Efficiency</span>
+		<div class="caption">
+			<p>
+			The difference between good code and bad code is efficiency, efficiency could be the 
+			difference between an algorithm runtime being O(n) vs O(n^2)
+			</p>
+		</div>
+	</div>
+
+	<div class="square resourcefulness"><span>Resourceful</span>
+		<div class="caption">
+			<p>
+				Resourceful for me means being able to take full advantage of the unlimited information on the internet 
+			</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="resumeContainer">
+
+	<div class="resume">
+
+		<br>
+
+		<h2>Education</h2>
+		<hr>
+		<br>
+
+		<h2>Brooklyn College, The City University of New York</h2>
+		<p>
+			Bachelor of Science <br>
+			Major: Computer Science <br>
+			Graduated: June 2018 <br>
+			Major GPA: 3.2
+		</p>
+
+		<h2>Borough of Manhattan Community College, The City University of New York</h2>
+		<p>Associates of Science in Computer Science	December 2015</p>
+
+		<h2>Honors</h2>
+		<hr>
+		<p>Dean's List: Spring 2018</p>
+
+		<h2>Coursework</h2>
+		<hr>
+		<p>Object-Oriented Programming in Java and C++ <br>
+			 Data Structures <br>
+			 Operating Systems <br>
+			 Computer Architecture <br>
+			 Database <br>
+			 Algorithms <br>
+		</p>
+
+		<h2>Skills</h2>
+		<hr>
+		<p>Language and Web Technologies: C++, Java, Javascript, HTML, Python, CSS, jQuery, Bootstrap, LUA <br>
+			 Environment: Visual Studio, Eclipse, Intellij, Atom, Sublime, Xcode, DevC++, CodeBlocks, LibGDX <br>
+		   Applications: Inkscape, Microsoft Office <br>
+		  
+	
+
+	</div>
+</div>
+
+
+
+<div id="example">
+	<h1>FUTURE PLANS</h1>
+</div>
+
+
+<div id="containerBackground">
+	<div id="container">
+			<h1 class="title">TO-DO LIST <i class="fa fa-caret-up" aria-hidden="true"></i></h1>
+			<input class="add" type="text" placeholder="Add To-Do Here">
+			<div id="cont">
+				<hr>
+			</div>
+
+			<li><span><i class="fa fa-trash" aria-hidden="true"></i></span> Create my own AI using API.ai <i class="fa fa-check checkMark" aria-hidden="true"></i></li>
+			<li><span><i class="fa fa-trash" aria-hidden="true"></i></span> Currently learning Python <i class="fa fa-check checkMark" aria-hidden="true"></i></li>
+			<li><span><i class="fa fa-trash" aria-hidden="true"></i></span> Learn Android Development <i class="fa fa-check checkMark" aria-hidden="true"></i></li>
+			<li><span><i class="fa fa-trash" aria-hidden="true"></i></span> Learn NodeJS <i class="fa fa-check checkMark" aria-hidden="true"></i></li>
+	</div>
+</div>
+
+<!-- <div id="contactsContainer">
+	<h1>CONTACTS</h1>
+
+	<div id="contacts">
+		<div id="gmail">
+			<div id="icon">
+				<span> <i class="fa fa-envelope" aria-hidden="true"></i></span>
+			</div>
+		</div>
+		<div id="">
+
+		</div>
+		<div id="">
+
+		</div>
+	</div>
+</div> -->
+
+<h1 id="contactsHeader">CONTACTS</h1>
+
+<div class="gridTwo">
+
+	<a href="#">
+		<div class="gridTwoSquare">
+			<div class="contacts">
+				<div class="contactsIcon">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</div>
+				<h3>Nashwan.beiruti1@gmail.com</h3>
+			</div>
+		</div>
+	</a>
+
+  <a href="https://github.com/NashwanBeiruti">
+		<div class="gridTwoSquare">
+			<div class="contacts">
+				<div class="contactsIcon">
+					<i class="fa fa-github-square" aria-hidden="true"></i>
+				</div>
+				<h3>github.com/NashwanBeiruti</h3>
+			</div>
+		</div>
+  </a>
+</div>
+
+
+<script src = "assets/js/lib/jquery-3.2.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/MyWebpage.js">
+
+</script>
 </body>
 </html>
